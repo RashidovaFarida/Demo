@@ -1,0 +1,58 @@
+.container{
+    margin-top: 5%;
+}
+.all{
+    .carousel-item{
+        background-color:#EFEFEF;
+    }
+    .allPart{
+        width: 100%;
+        height: auto ;
+        padding: 1%;
+        .allPartOne{
+        .title{
+            font-size: 12px !important;
+            color: #2e2e2e;
+            text-decoration: none;
+            &:hover{
+                text-decoration: dashed !important ;
+            }
+        }
+        .about{
+            font-size: 16px;
+            color: #000;
+            text-decoration: none;
+            padding: 2% 0 ;
+
+        }
+        .price{
+            color: #4b4b4b;
+            padding-top: 2% 0 0 0;
+        }
+    }
+    .allPartTwo{
+        transition:  1.5s ease-in;
+        display: none !important;
+        p{
+            margin: 1px !important;
+            font-size: 14px;
+        }
+    }
+    
+}
+}
+.all{
+   
+    &:hover{
+        cursor: pointer;
+        border: 1px solid #9e9e9eaf;
+        box-shadow: 2px 5px 4px #9e9e9eaf;
+    }
+    &:hover .allPartTwo{
+        opacity: 1;
+        display: block !important;
+        transition:  1.5s ease-in;
+
+    }
+}
+

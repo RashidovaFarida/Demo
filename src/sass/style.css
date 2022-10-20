@@ -1,0 +1,50 @@
+.container {
+  margin-top: 5%;
+}
+
+.all .carousel-item {
+  background-color: #EFEFEF;
+}
+.all .allPart {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+.all .allPart .allPartOne .title {
+  font-size: 12px !important;
+  color: #2e2e2e;
+  text-decoration: none;
+}
+.all .allPart .allPartOne .title:hover {
+  -webkit-text-decoration: dashed !important;
+          text-decoration: dashed !important;
+}
+.all .allPart .allPartOne .about {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  padding: 2% 0;
+}
+.all .allPart .allPartOne .price {
+  color: #4b4b4b;
+  padding-top: 2% 0 0 0;
+}
+.all .allPart .allPartTwo {
+  transition: 1.5s ease-in;
+  display: none !important;
+}
+.all .allPart .allPartTwo p {
+  margin: 1px !important;
+  font-size: 14px;
+}
+
+.all:hover {
+  cursor: pointer;
+  border: 1px solid rgba(158, 158, 158, 0.6862745098);
+  box-shadow: 2px 5px 4px rgba(158, 158, 158, 0.6862745098);
+}
+.all:hover .allPartTwo {
+  opacity: 1;
+  display: block !important;
+  transition: 1.5s ease-in;
+}/*# sourceMappingURL=style.css.map */
